@@ -1,0 +1,150 @@
+{
+  "id": "f96a3878-8673-4997-a64f-f92a687b119f",
+  "version": "2.0",
+  "name": "Skillfactory",
+  "url": "https://www.google.ru",
+  "tests": [{
+    "id": "c5588599-69a3-4621-8de9-a03681e53286",
+    "name": "opening skillfactory",
+    "commands": [{
+      "id": "b2050868-46db-4646-8cea-69efabd8f914",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "15ea2605-81d1-4a3c-9c97-1cb9c2fb8e3b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2b5d98fa-1287-498b-aa3b-dd6e4fcded38",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "67cd2a0c-9ff5-4747-91a6-0a4ae2b4e07b",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "skillfactory"
+    }, {
+      "id": "6f1a8608-baa0-4cc1-896f-99c7a3162eb7",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "0efa6e15-f8f1-4292-b8cd-76e3cfa54815",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.eKjLze .LC20lb",
+      "targets": [
+        ["css=.eKjLze .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Онлайн-школа SkillFactory — ваш прямой путь в IT ...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4beff09f-191d-40a5-b342-eea53061eb6d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.eKjLze .LC20lb",
+      "targets": [
+        ["css=.eKjLze .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Онлайн-школа SkillFactory — ваш прямой путь в IT ...')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win459",
+      "windowTimeout": 2000
+    }, {
+      "id": "c079cc5e-8f5e-48d1-9818-5a17214481ff",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6cf4b172-334d-4f00-9a7c-1d51be144bd6",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win459}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8dfbbcab-ed5b-4a45-a81a-a5e287c6a3e0",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1340a9b9-73b7-4d13-aaab-d3a61a61c39d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.eKjLze .LC20lb",
+      "targets": [
+        ["css=.eKjLze .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Онлайн-школа SkillFactory — ваш прямой путь в IT ...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8685e007-f392-4422-a3d0-e2973f13ff28",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win459}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7937d8f1-e610-4a5a-89ed-2075c611bbf7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__2932086791563737820043 .tn-atom__img",
+      "targets": [
+        ["css=.tn-elem__2932086791563737820043 .tn-atom__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://thumb.tildacdn.com/tild3731-3833-4739-a435-666265613136/-/resize/190x/-/format/webp/Frame03.png')]", "xpath:img"],
+        ["xpath=//div[@id='rec293208679']/div/div/div[26]/a/img", "xpath:idRelative"],
+        ["xpath=//div[26]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "35424d94-dfc4-454c-9b85-03fef25507c6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c5588599-69a3-4621-8de9-a03681e53286"]
+  }],
+  "urls": ["https://www.google.ru/"],
+  "plugins": []
+}
